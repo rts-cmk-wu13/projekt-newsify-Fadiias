@@ -1,6 +1,8 @@
 // Newsify/src/components/main.js
-import { CATEGORIES } from '../categories.js';
-import { renderIntro } from './components/intro.js';
+import { CATEGORIES } from '/src/categories.js';
+import { renderIntro } from './intro.js';
+
+
 
 export function renderMain(view = 'home') {
   switch (view) {
@@ -69,4 +71,9 @@ if (!localStorage.getItem('onboardingCompleted')) {
   renderIntro(document.getElementById('main'));
 } else {
   loadPage(); // Your normal page loading
+}
+
+function loadPage() {
+  // Implement your page loading logic here
+  console.log("Page loaded");
 }
