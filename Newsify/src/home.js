@@ -8,6 +8,8 @@ import { renderMain } from './components/main.js';
 import { showToast } from './components/toast.js';
 import { CATEGORIES } from './categories.js';
 
+// Ensure all paths and files exist in the project structure
+
 // Use a single DOMContentLoaded listener
 document.addEventListener("DOMContentLoaded", () => {
   addLoader(); // Show the loader initially
