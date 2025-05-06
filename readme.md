@@ -1,3 +1,4 @@
+Den rigitg github min kode er her ned :
 https://github.com/Fadiias/newsbox-Fadiias
 
 site link ---- https://newsaski.netlify.app/
